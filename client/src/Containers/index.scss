@@ -1,0 +1,61 @@
+html, body{
+    font-family : sans-serif;
+    background: #e2e1e0;
+      text-align : center;
+    .pokeapp{
+        padding : 16px;
+    }
+    .pokemon-1{
+        -ms-flex-preferred-size : 25%;
+        flex-basis : 25%;
+        padding : 8px;
+        box-sizing: border-box;
+        
+    }
+    .pokemon-2{
+        padding : 8px;
+        background : white;
+        cursor : pointer;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+    .pokemon-3{
+        display : -webkit-box;
+        display : -ms-flexbox;
+        display : flex;
+        -ms-flex-wrap : wrap;
+        flex-wrap : wrap;
+        padding : 16px 0;
+    }
+    .SearchPokemon{
+        width: 30%;
+        min-width: 134px;
+        padding: 7px;
+        border-radius: 4px;
+        border: 2px solid;
+        outline: none;
+        min-width: 183px;
+    }
+    .loader{
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+        display: -webkit-inline-box;
+        @-webkit-keyframes spin {
+            0% { -webkit-transform: rotate(0deg); }
+            100% { -webkit-transform: rotate(360deg); }
+          }
+          @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+          }
+      }
+  }
+  
+  
+  
+  
+  
